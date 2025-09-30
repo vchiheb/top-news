@@ -1,0 +1,40 @@
+
+.stories {
+  display: flex;
+  justify-content: center;
+  min-height: 300px;  
+}
+
+.stories .panel {
+  background-color: #282c34;
+}
+
+.story-title img {
+  border-radius: 5px;
+  margin-top:20px;
+}
+
+.panel {
+  width: 300px;
+  border-radius: 5px;
+  color: #ECE7E1;
+}
+
+.story-title {
+  text-align: center;
+  padding:10px;
+}
+
+.story-link {
+  text-align: center;
+  flex: 2;
+}
+
+.story-link a {
+  text-decoration: underline; 
+}
+
+.story-title h2 {
+  padding:5px;
+  padding-bottom: 10px;
+}

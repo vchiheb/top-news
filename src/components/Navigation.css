@@ -1,0 +1,33 @@
+
+
+.navigation-handlers {
+  display: flex;  
+}
+
+.navigation {
+  background-color: #282c34;
+  color: #282c34;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top:10px;
+  text-align: center;
+  width: 300px;
+}
+
+#prev.active, #next.active {
+  cursor:pointer;
+}
+
+#prev {
+  left:10px;
+  bottom:10px;
+  flex: 1;
+  color: #ECE7E1;
+}
+
+#next {
+  right:10px;
+  bottom:10px;
+  flex: 1;
+  color: #ECE7E1;
+}
